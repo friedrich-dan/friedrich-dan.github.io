@@ -2,65 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.dexmybia.com/posts/</loc>
+    <loc>https://zhaohuabing.com/post/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/tags/</loc>
+    <loc>https://zhaohuabing.com/tags/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/tags/%E5%86%99%E4%BD%9C/</loc>
+    <loc>https://zhaohuabing.com/tags/%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/</loc>
+    <loc>https://zhaohuabing.com/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter09/</loc>
+    <loc>https://zhaohuabing.com/post/chapter09/</loc>
     <lastmod>2022-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter08/</loc>
+    <loc>https://zhaohuabing.com/post/chapter08/</loc>
     <lastmod>2022-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter07/</loc>
+    <loc>https://zhaohuabing.com/post/chapter07/</loc>
     <lastmod>2022-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter06/</loc>
+    <loc>https://zhaohuabing.com/post/chapter06/</loc>
     <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/tags/%E9%98%85%E8%AF%BB/</loc>
+    <loc>https://zhaohuabing.com/tags/%E9%98%85%E8%AF%BB/</loc>
     <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter05/</loc>
+    <loc>https://zhaohuabing.com/post/chapter05/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter04/</loc>
+    <loc>https://zhaohuabing.com/post/chapter04/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter03/</loc>
+    <loc>https://zhaohuabing.com/post/chapter03/</loc>
     <lastmod>2022-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/tags/%E8%81%86%E5%BF%97/</loc>
+    <loc>https://zhaohuabing.com/tags/%E8%81%86%E5%BF%97/</loc>
     <lastmod>2022-07-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter02/</loc>
+    <loc>https://zhaohuabing.com/post/chapter02/</loc>
     <lastmod>2022-07-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/tags/%E5%91%93%E8%AF%AD/</loc>
+    <loc>https://zhaohuabing.com/tags/%E5%91%93%E8%AF%AD/</loc>
     <lastmod>2022-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter01/</loc>
+    <loc>https://zhaohuabing.com/post/chapter01/</loc>
     <lastmod>2022-07-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/archives/</loc>
+    <loc>https://zhaohuabing.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/about/</loc>
+    <loc>https://zhaohuabing.com/about/</loc>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter10/</loc>
+    <loc>https://zhaohuabing.com/notes/</loc>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter11/</loc>
+    <loc>https://zhaohuabing.com/post/chapter10/</loc>
   </url><url>
-    <loc>https://blog.dexmybia.com/categories/</loc>
+    <loc>https://zhaohuabing.com/post/chapter11/</loc>
   </url><url>
-    <loc>https://blog.dexmybia.com/series/</loc>
+    <loc>https://zhaohuabing.com/search/placeholder/</loc>
+  </url><url>
+    <loc>https://zhaohuabing.com/categories/</loc>
+  </url><url>
+    <loc>https://zhaohuabing.com/archive/</loc>
+  </url><url>
+    <loc>https://zhaohuabing.com/search/</loc>
   </url>
 </urlset>

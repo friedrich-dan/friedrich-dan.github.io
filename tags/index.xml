@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 得閒飲茶🧉</title>
-    <link>https://blog.dexmybia.com/tags/</link>
-    <description>Recent content in Tags on 得閒飲茶🧉</description>
+    <title>Tags on 得闲饮茶</title>
+    <link>https://zhaohuabing.com/tags/</link>
+    <description>Recent content in Tags on 得闲饮茶</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.dexmybia.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zhaohuabing.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>写作</title>
+      <link>https://zhaohuabing.com/tags/%E5%86%99%E4%BD%9C/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhaohuabing.com/tags/%E5%86%99%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>阅读</title>
+      <link>https://zhaohuabing.com/tags/%E9%98%85%E8%AF%BB/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhaohuabing.com/tags/%E9%98%85%E8%AF%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>聆志</title>
+      <link>https://zhaohuabing.com/tags/%E8%81%86%E5%BF%97/</link>
+      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhaohuabing.com/tags/%E8%81%86%E5%BF%97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>呓语</title>
+      <link>https://zhaohuabing.com/tags/%E5%91%93%E8%AF%AD/</link>
+      <pubDate>Sat, 16 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhaohuabing.com/tags/%E5%91%93%E8%AF%AD/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
