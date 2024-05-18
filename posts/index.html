@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 
 
 
@@ -14,55 +14,51 @@
 
 
 
-<html lang="en">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+>
   <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  
-  <title>Posts - 得閒飲茶🧉</title>
-
-  
-  
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  
-
-  
-  
-  
-  
-  
-  
-  <link rel="preload stylesheet" as="style" href="https://blog.dexmybia.com/app.min.css" />
-
-  
-
-  
-  <link rel="preload" as="image" href="https://blog.dexmybia.com/theme.png" />
-
-  
-  <link rel="preload" as="image" href="https://blog.dexmybia.com/twitter.svg" />
-  
-  <link rel="preload" as="image" href="https://blog.dexmybia.com/github.svg" />
-  
-
-  
-  <link rel="icon" href="https://blog.dexmybia.com/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://blog.dexmybia.com/apple-touch-icon.png" />
-
-  
-  <meta name="generator" content="Hugo 0.93.1" />
-
-  
-  
-  <link
-    rel="alternate"
-    type="application/rss&#43;xml"
-    href="https://blog.dexmybia.com/posts/index.xml"
-    title="得閒飲茶🧉"
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
   />
+
+  
+  <title>Posts - 得闲饮茶</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="A personal blog"
+  />
+  <meta name="author" content="得闲饮茶" />
   
 
   
@@ -71,18 +67,52 @@
   
   
   
+  <link rel="preload stylesheet" as="style" href="http://example.org/main.min.css" />
+
   
   
+  
+  
+  
+  <link rel="preload" as="image" href="http://example.org/theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  <link rel="icon" href="http://example.org/favicon.ico" />
+  <link rel="apple-touch-icon" href="http://example.org/apple-touch-icon.png" />
+
+  
+  <meta name="generator" content="Hugo 0.111.0">
+
+  
+  
+  
+  
+  
+  <meta itemprop="name" content="Posts">
+<meta itemprop="description" content="">
   
   <meta property="og:title" content="Posts" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://blog.dexmybia.com/posts/" />
+<meta property="og:url" content="http://example.org/posts/" />
 
-
-  
-  <meta itemprop="name" content="Posts">
-<meta itemprop="description" content="">
   
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -90,65 +120,102 @@
 
   
   
+  <link
+    rel="alternate"
+    type="application/rss&#43;xml"
+    href="http://example.org/posts/index.xml"
+    title="得闲饮茶"
+  />
+  
+  
+  <link rel="canonical" href="http://example.org/posts/" />
+  
+  
 </head>
 
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-3xl px-8 lg:justify-center">
+  <div class="relative z-50 mr-auto flex items-center">
+    <a
+      class="-translate-x-[1px] -translate-y-[1px] text-2xl font-semibold"
+      href="http://example.org/"
+      >得闲饮茶</a
+    >
+    <div
+      class="btn-dark text-[0] ml-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
 
-  <body class="not-ready" data-menu="false">
-    <header class="header">
-  
-  <p class="logo">
-    <a class="site-name" href="https://blog.dexmybia.com">得閒飲茶🧉</a><a class="btn-dark"></a>
-  </p>
+  <div
+    class="btn-menu relative z-50 -mr-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
   
 
   <script>
-    let bodyClx = document.body.classList;
-    let btnDark = document.querySelector('.btn-dark');
-    let sysDark = window.matchMedia('(prefers-color-scheme: dark)');
-    let darkVal = localStorage.getItem('dark');
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
 
-    let setDark = (isDark) => {
-      bodyClx[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark ? 'yes' : 'no');
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
     };
 
-    setDark(darkVal ? darkVal === 'yes' : sysDark.matches);
-    requestAnimationFrame(() => bodyClx.remove('not-ready'));
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
 
-    btnDark.addEventListener('click', () => setDark(!bodyClx.contains('dark')));
-    sysDark.addEventListener('change', (event) => setDark(event.matches));
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
   </script>
 
-  
-  
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
 
-  
-  <nav class="social">
     
-    <a
-      class="twitter"
-      style="--url: url(./twitter.svg)"
-      href="https://twitter.com/i3AyHjCESSh9TCS"
-      target="_blank"
-    ></a>
-    
-    <a
-      class="github"
-      style="--url: url(./github.svg)"
-      href="https://github.com/friedrich-dan"
-      target="_blank"
-    ></a>
-    
-  </nav>
-  
+  </div>
 </header>
 
 
-    <main class="main">
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl px-8 pb-16 pt-12 dark:prose-invert"
+    >
+      
 
 
-
-<h1 class="main-title">蜃樓海市，空花陽焰。</h1>
 
 
 
@@ -157,55 +224,135 @@
 
 
  
-<article class="post-entry">
-  <h2>毛发</h2>
-  <time>Nov 7, 2022</time>
-  <a href="https://blog.dexmybia.com/posts/chapter09/"></a>
-</article>
-
-<article class="post-entry">
-  <h2>样板间</h2>
-  <time>Nov 5, 2022</time>
-  <a href="https://blog.dexmybia.com/posts/chapter08/"></a>
-</article>
-
-<article class="post-entry">
-  <h2>蝴蝶</h2>
-  <time>Oct 30, 2022</time>
-  <a href="https://blog.dexmybia.com/posts/chapter07/"></a>
-</article>
-
-<article class="post-entry">
-  <h2>读『现代性与大屠杀』章节一</h2>
-  <time>Oct 25, 2022</time>
-  <a href="https://blog.dexmybia.com/posts/chapter06/"></a>
-</article>
-
-<article class="post-entry">
-  <h2>web3之呓语</h2>
-  <time>Aug 15, 2022</time>
-  <a href="https://blog.dexmybia.com/posts/chapter05/"></a>
-</article>
 
 
 
 
-<nav class="main-nav">
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
   
+  <h2 class="!my-0 pb-1 font-bold !leading-none">记忆</h2>
+  <time class="text-sm antialiased opacity-60"
+    >Sep 16, 2023</time
+  >
+  <a class="absolute inset-0 text-[0]" href="http://example.org/posts/chapter08/">记忆</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
   
+  <h2 class="!my-0 pb-1 font-bold !leading-none">微光</h2>
+  <time class="text-sm antialiased opacity-60"
+    >May 6, 2023</time
+  >
+  <a class="absolute inset-0 text-[0]" href="http://example.org/posts/chapter07/">微光</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
   
-  <a class="next" href="/posts/page/2/"> →</a>
+  <h2 class="!my-0 pb-1 font-bold !leading-none">毛发</h2>
+  <time class="text-sm antialiased opacity-60"
+    >Nov 7, 2022</time
+  >
+  <a class="absolute inset-0 text-[0]" href="http://example.org/posts/chapter06/">毛发</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
   
-</nav>
+  <h2 class="!my-0 pb-1 font-bold !leading-none">样板间</h2>
+  <time class="text-sm antialiased opacity-60"
+    >Nov 5, 2022</time
+  >
+  <a class="absolute inset-0 text-[0]" href="http://example.org/posts/chapter05/">样板间</a>
+</section>
 
 
 
-</main>
 
-    <footer class="footer">
-  <p>&copy; 2023 <a href="https://blog.dexmybia.com">得閒飲茶🧉</a></p>
-  <p>书写是一种排泄</p>
-  <p>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</p>
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none">蝴蝶</h2>
+  <time class="text-sm antialiased opacity-60"
+    >Oct 30, 2022</time
+  >
+  <a class="absolute inset-0 text-[0]" href="http://example.org/posts/chapter04/">蝴蝶</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none">性的湮灭</h2>
+  <time class="text-sm antialiased opacity-60"
+    >Jul 30, 2022</time
+  >
+  <a class="absolute inset-0 text-[0]" href="http://example.org/posts/chapter03/">性的湮灭</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none">黑格尔的家庭</h2>
+  <time class="text-sm antialiased opacity-60"
+    >Jul 23, 2022</time
+  >
+  <a class="absolute inset-0 text-[0]" href="http://example.org/posts/chapter02/">黑格尔的家庭</a>
+</section>
+
+
+
+
+
+<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
+  
+  <h2 class="!my-0 pb-1 font-bold !leading-none">夜行</h2>
+  <time class="text-sm antialiased opacity-60"
+    >Jul 16, 2022</time
+  >
+  <a class="absolute inset-0 text-[0]" href="http://example.org/posts/chapter01/">夜行</a>
+</section>
+
+
+
+
+
+
+    </main>
+
+    <footer
+  class="opaco mx-auto flex h-[4.5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-60"
+>
+  <div class="mr-auto">
+    &copy; 2024
+    <a class="link" href="http://example.org/">得闲饮茶</a>
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >Powered by Hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >✎ Paper</a
+  >
 </footer>
+
   </body>
 </html>
