@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.dexmybia.com/posts/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+    <loc>https://blog.dexmybia.com/posts/chapter11/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.dexmybia.com/posts/chapter10/</loc>
-    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+    <loc>https://blog.dexmybia.com/posts/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.dexmybia.com/</loc>
+    <lastmod>2024-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.dexmybia.com/posts/chapter10/</loc>
     <lastmod>2024-09-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.dexmybia.com/posts/chapter09/</loc>
